@@ -5,7 +5,7 @@ const router = require("./routes/route");
 
 require("dotenv").config();
 
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 
 const app = express();
 
@@ -15,5 +15,5 @@ app.use(cors({ credentials: true }));
 app.use("/get", router);
 
 app.listen(port, () => {
-  console.log(`now connected on port ${port}`);
+  console.log(`server running on port ${port}`);
 });
