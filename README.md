@@ -2,6 +2,9 @@
 
 This is a simple API that returns basic user information, including your email, the current date and time, and the GitHub URL of this project. The API is built using Node.js and Express.
 
+**Backlink**
+https://hng.tech/hire/nodejs-developers
+
 **Features**
 
 Returns the user's email
@@ -35,8 +38,8 @@ npm (Node Package Manager)
 _Clone the repository_:
 git clone https://github.com/Ethan-net/hng_stageZero_api.git
 _Navigate into the project directory_:
-cd hng_stageZero_api
-_Install the dependencies_:
+cd hng*stageZero_api
+\_Install the dependencies*:
 npm install
 
 **Running the API**
