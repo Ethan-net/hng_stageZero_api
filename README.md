@@ -10,7 +10,8 @@ Returns the GitHub URL of the project
 
 **Endpoint**
 
-GET /mydata
+GET
+_/get/mydata_
 This endpoint returns a JSON response with the following information:
 email: Your email address
 current_datetime: The current date and time in UTC format
@@ -34,8 +35,8 @@ npm (Node Package Manager)
 _Clone the repository_:
 git clone https://github.com/Ethan-net/hng_stageZero_api.git
 _Navigate into the project directory_:
-cd hng*stageZero_api
-\_Install the dependencies*:
+cd hng_stageZero_api
+_Install the dependencies_:
 npm install
 
 **Running the API**
